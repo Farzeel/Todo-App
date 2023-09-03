@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff
+    
+}
+h1{
+    text-align: center;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 20px;
+    margin-top: 0.3rem;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+button:hover{
+    background-color: #45a049;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-overflow: ellipsis;
+    overflow:hidden
+   
+}
+li:last-child{
+    border-bottom: none;
+}
+/* style.css */
+/* ... Existing CSS code ... */
+
+.deleteBtn {
+    margin-left: 10px;
+    color: #ff0000;
+    cursor: pointer;
+  }
+  
+  .updateBtn {
+    margin-left: 10px;
+    color: #0000ff;
+    cursor: pointer;
+  }
+.marg  {
+    margin: 0 24px;
+}
+.date-time{
+    margin: 0 15px;
+}
